@@ -1,109 +1,56 @@
-# # 1.
-# i=1
-# while i<100:
-#     if i%1==0:
-#         print(i)
-#     i=i+1
-2.
-# i=1
-# while i<100:
-#     if i%7==0:
-#         print(i)
-#     i=i+1
 
-3.
-# i=1
-# while i<=100:
-#     z=i+556
-#     if z%7==0:
-#         print(z)
-#     i=i+1
-# **
-# i=1
-# while i <= 7:
-#     print('#' *i)
-#     i = i+ 1
-# **
-# i=1
-# while i<10:
-#     print('*'*i)
-#     i=i+1
+# i=int(input("enter the number"))
+# rev=0
+# while i>0:
+#     rev=(rev*10)+(i%10)
+#     i=i//10
+# print("reverse=",rev//10*10)
 
-# n=1
-# sum=0
-# while n<= 100:
-#     sum=sum+n
-#     print(sum)
-#     n=n+1
 
-# i=1
-# while i<=10:
-#     if i%1==0:
-#        print(i)
-#        i=i+1
+# n=int(input("enter the number"))
+# fact=1
+# while n>=2:
+#     fact=fact*n
+#     n=n-1
+# print("factorial=",fact)
 
-# i=1
-# sum=0
-# while i<=100:
-#     print(i)
-#     sum=sum+i
-#     i=i+1
-# print(sum)
-
-# i=1
-# while i<10:
-#     z=i+156
-#     print(z)
-#     i=i+1 
 
 
 # i=0
-# sum=0
-# while i<10:
-#     num=int(input("enter the number"))
-#     sum=sum+num
+# while i<=10:
+#     if i%2!=0:
+#         print(i,"it is prime ")
+#     elif i==2:
+#         print(i,"it is also prime")
+#     else:
+#         print(i,"it is not prime")
+#     print()
 #     i=i+1
-#     print(sum)
 
 
-i=1
-while i<100:
-    if i%3==0 and i%7==0:
-        print("NavGurukul")
-    elif i%3==0:
-        print("Nav")
-    elif i%7==0:
-        print("Gurukul")
-    else:
-        print(i)
+i=10
+while i<=10:
+    j=0
+    while j<=30:
+        print(i*j,end=" ")
+        j=j+1
+    print( )
     i=i+1
 
+# binary_number=[1, 0, 0, 1, 1, 0, 1,1]
 # i=0
 # sum=0
-# while i<10:
-#     num=int(input("enter the number"))  
-#     z=i+50 
-#     sum=sum+num
+# while i<len(binary_number):
+#     l=binary_number[-i-1]
+#     sum=sum+l*(2**i)
 #     i=i+1
-#     print(sum)          
+# # print(sum)
 
-# i=0
-# sum=0
-# while i<=6:
-#     num=int(input("enter the number"))
-#     sum=sum+num
-#     i=i+1
-#     print(sum)
-
-# i=1
-# while i<10:
-#     if i%1==0 :
-#         print("prime number")
-#     elif i%4!=0:
-#         print("no prine number")
-#     else:
+# i=10
+# while i<=300:
+#     if i%10:
 #         print(i)
-#     i=i+1
+#     i=i+10
 
 
 
